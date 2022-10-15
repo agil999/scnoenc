@@ -32,9 +32,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/m_agg._'
 global.sgh = '-' //github
-global.sgc = 'https://chat.whatsapp.com/BiHY7oEBhQo1CsDeZgQ5dA' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/GwIr2CKvcuy8ksl06YApRX' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/c/DenaraBot' // my youtube channel
+global.snh = 'https://youtube.com/channel/UCSRWbv4dNHO4djLCHd2ioKA' // my youtube channel
 
 /*============== PAYMENT ==============*/
 global.pdana = '6283144700823' //dana
@@ -58,8 +58,8 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283144700823', 'DENARA', true],
-  ['-', 'isi_kalau_ada', true],
+  ['6283144700823', 'itzxyw', true],
+  ['6282228289625', 'BANG AL', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
