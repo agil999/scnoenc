@@ -100,7 +100,7 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : WH MODS DEV","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"by : BANG AL","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -108,7 +108,7 @@ handler.all = async function (m) {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "WH MODS DEV","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "itzxyw","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -157,7 +157,7 @@ handler.all = async function (m) {
                "groupInviteMessage": {
                    "groupJid": "6282127487538-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan WH MODS DEV", 
+                   "groupName": "Kawan saya", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
@@ -188,18 +188,18 @@ export default handler
 
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    let res = "Selamat malam 🌙"
+    let res = "sugeng malem 🌙"
     if (time >= 4) {
-        res = "Selamat pagi 🌄"
+        res = "Sugeng isuk 🌄"
     }
     if (time > 10) {
-        res = "Selamat siang ☀️"
+        res = "Sugeng siang ☀️"
     }
     if (time >= 15) {
-        res = "Selamat sore 🌅"
+        res = "sugeng sore 🌅"
     }
     if (time >= 18) {
-        res = "Selamat malam 🌙"
+        res = "Sugeng bengi 🌙"
     }
     return res
 }
