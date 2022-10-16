@@ -5,14 +5,14 @@ handler.all = async function (m, { isBlocked }) {
     if (isBlocked) return
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('Undangan untuk bergabung') || m.text.startsWith('Invitation to join') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
-    let teks = `「 WH-MODS-BOT-V1 」
+    let teks = `「 itzxyw 1.0 」
 
     ╭━━━━「 SEWA 」
     ┊⫹⫺ Hemat: 5k/grup (1 minggu)
     ┊⫹⫺ Normal: 15k/grup (1 bulan)
     ┊⫹⫺ Standar: 30k/grup (2 bulan)
     ┊⫹⫺ Pro: 35k/grup (4 bulan)                                                      
-    ┊⫹⫺ Vip: = 65k/grup (12 bulan)
+    ┊⫹⫺ Vip: = 100k/grup (12 bulan)
     ╰═┅═━––––––๑
     
     ╭━━━━「 PREMIUM 」
@@ -31,11 +31,11 @@ handler.all = async function (m, { isBlocked }) {
     • Link Aja: [082127487538]
     
     Nomor Owner :
-    wa.me/6282127487538
+    wa.me/6283144700823
     
     ▌│█║▌║▌║║▌║▌║█│▌
     
-    #BY WH MODS DEV`
+    #BY BANG AL`
     this.reply(m.chat, teks, m)
     const data = global.owner.filter(([id, isCreator]) => id && isCreator)
     this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
