@@ -13,7 +13,7 @@ let pp = '40'
 let pv = '50'
 let ppm = '70'
 let info = `
-bot masih dalam masa pengembangan (beta)
+bot masih dalam masa pengembangan (beta), chat owner kalau mau premium gratis
 `
 const sections = [
    {
