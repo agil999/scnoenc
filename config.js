@@ -39,9 +39,9 @@ global.snh = 'https://youtube.com/channel/UCSRWbv4dNHO4djLCHd2ioKA' // my youtub
 /*============== PAYMENT ==============*/
 global.pdana = '6283144700823' //dana
 global.povo = '6283144700823' //ovo
-global.pgopay = '6283144700823' //gopay
-global.plinkaja = '6283144700823' //link aja
-global.ppulsa = '6283144700823' //telkomsel
+global.pgopay = '-' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '6283144700823' //axis
 global.ppulsa2 = '6283144700823' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/denarabot26'
 
@@ -173,7 +173,7 @@ global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅═┅═❏ *DASHBOARD* ❏═┅═┅'
+global.dashmenu = '┅═┅═❏ *YNTKTS* ❏═┅═┅'
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊✦ ' //body
