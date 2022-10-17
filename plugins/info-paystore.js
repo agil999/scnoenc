@@ -15,13 +15,33 @@ let ppm = '70'
 let info = `
 bot masih dalam masa pengembangan (beta)
 `
-
+const sections = [
+   {
+	title: `${htjava} SEWA ✦-------`,
+	rows: [
+	    {title: "🔖 HEMAT"},
+	    {title: "🔖 NORMAL"},
+	{title: "🔖 STANDAR"},
+	{title: "🔖 PRO"},
+	{title: "🔖 VIP"},
+	]
+    }, {
+    title: `${htjava} PREMIUM ✦-------`,
+	rows: [
+	    {title: "🌟 HEMAT"},
+	    {title: "🌟 NORMAL"},
+	{title: "🌟 PRO"},
+	{title: "🌟 VIP"},
+	{title: "🌟 PERMANENT"},
+	]
+    },
+]
 
 const listMessage = {
   text: info,
   footer: botdate,
   title: wm,
-  buttonText: "Click Here!",
+  buttonText: "tekan disini",
   sections
 }
 await conn.sendMessage(m.chat, listMessage)
