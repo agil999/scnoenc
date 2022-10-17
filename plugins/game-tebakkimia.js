@@ -26,7 +26,7 @@ Bonus: ${poin} XP
         }, timeout)
     ]
 }
-handler.help = ['tebakkimiaaa']
+handler.help = ['tebakkimia']
 handler.tags = ['game']
 handler.command = /^tebakkimia/i
 
