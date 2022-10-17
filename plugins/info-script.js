@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://www.youtube.com/c/WindahBasudara*
+let str = `*https://www.youtube.com/c/WindahBasudara* `
 
 
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
