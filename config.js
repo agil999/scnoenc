@@ -46,7 +46,7 @@ global.ppulsa2 = '6283144700823' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/denarabot26'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '254775182573'
+global.nomorbot = '6282137460973'
 global.nomorown = '6283144700823'
 global.namebot = 'itzxyw'
 global.nameown = 'BANG AL'
